@@ -62,7 +62,7 @@ html {
 .launch {
   background: linear-gradient(
       to top,
-      rgba(30, 35, 38, 0.444),
+      rgba(30, 35, 38, 0.623),
       rgba(30, 35, 38, 1)
     ),
     url(./public/backgroundPortfolio.jpg);
@@ -91,10 +91,6 @@ html {
 }
 .launch .banner-content:hover {
   transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
 }
 /* .launch .banner-content img {
   margin-top: 50px;
@@ -116,25 +112,22 @@ html {
 }
 .launch .banner-content .networks a,
 footer .networks a {
-  color: #cccccc;
   display: inline-block;
   text-decoration: none;
+  background-color: transparent;
+  color: #cccccc;
   border: 1px solid #cccccc;
-  border-radius: 100%;
+  border-radius: 50%;
   width: 40px;
   height: 40px;
   line-height: 40px;
-  margin: 40px 5px;
-  font-size: 20px;
-  transition: 1s;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  -ms-border-radius: 100%;
-  -o-border-radius: 100%;
+  margin: 10px 5px;
 }
 .launch .banner-content .networks a:hover,
 footer .networks a:hover {
-  background-color: #eecc0e;
+  color: rgb(255, 255, 255);
+  background-color: #eecc0ee3;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
 }
 /* SOBRE MI */
 .aboutMe {
@@ -172,35 +165,7 @@ footer .networks a:hover {
   color: #eecc0e;
 }
 
-/* .aboutMe .content-section p span{
-
-} */
-
-/* .aboutMe .row{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-.aboutMe .row .column{
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.aboutMe .row .column h3{
-  font-size: 28px;
-  font-family: 'Righteous';
-  font-weight: normal;
-  margin-bottom: 25px;
-} */
-
-.launch button,
-.contact button {
+.launch button {
   cursor: pointer;
   background: transparent;
   border: 2px solid #cccccc;
@@ -469,6 +434,22 @@ footer .networks a:hover {
 .contact .column .info li {
   list-style: none;
   margin-bottom: 10px;
+}
+.contact button {
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #cccccc;
+  width: fit-content;
+
+  padding: 10px 22px;
+  font-size: 16px;
+  color: rgb(22, 120, 153);
+  position: relative;
+  z-index: 10;
+  transition: .5s ;
+}
+.contact button:hover{
+  transform: scale(1.05);
 }
 
 footer {
