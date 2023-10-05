@@ -87,7 +87,7 @@ html {
   transition: 1s;
 }
 .launch .banner-content h1 {
-  color:  #e6e6e6;
+  color: #e6e6e6;
 }
 .launch .banner-content:hover {
   transform: scale(1.1);
@@ -139,7 +139,7 @@ footer .networks a:hover {
 /* SOBRE MI */
 .aboutMe {
   background-color: #000f16;
-  color:#cccccc;
+  color: #cccccc;
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
@@ -160,13 +160,16 @@ footer .networks a:hover {
   font-weight: normal;
   text-align: center;
   padding: 20px 0;
-  color:  #e6e6e6;
+  color: #e6e6e6;
 }
 
 .aboutMe .content-section p {
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 20px;
+}
+.underline {
+  color: #eecc0e;
 }
 
 /* .aboutMe .content-section p span{
@@ -229,7 +232,7 @@ footer .networks a:hover {
 /* Habilidades */
 .skills {
   background-color: #000f16fc;
-  color:#cccccc;
+  color: #cccccc;
   padding: 65px 20px;
 }
 .skills .content-section {
@@ -242,7 +245,7 @@ footer .networks a:hover {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: normal;
   text-align: center;
-  color:  #e6e6e6;
+  color: #e6e6e6;
   margin-bottom: 20px;
 }
 .skills .row {
@@ -284,7 +287,7 @@ footer .networks a:hover {
 .portfolio {
   padding: 50px 20px;
   background-color: #000f16;
-  color:#cccccc;
+  color: #cccccc;
 }
 .portfolio .content-section {
   max-width: 1100px;
@@ -297,7 +300,7 @@ footer .networks a:hover {
   font-weight: normal;
   text-align: center;
   padding: 20px 0;
-  color:  #e6e6e6;
+  color: #e6e6e6;
 }
 .portfolio .galery {
   display: flex;
@@ -419,7 +422,7 @@ footer .networks a:hover {
 } */
 .contact {
   background-color: #000f16;
-  color:#cccccc;
+  color: #cccccc;
   padding: 50px 20px;
 }
 .contact .content-section {
@@ -433,7 +436,7 @@ footer .networks a:hover {
   font-weight: normal;
   text-align: center;
   padding: 20px 0;
-  color:  #e6e6e6;
+  color: #e6e6e6;
 }
 .contact .row {
   display: flex;
@@ -456,11 +459,11 @@ footer .networks a:hover {
   outline: none;
   margin-bottom: 20px;
   background-color: rgba(128, 128, 128, 0.353);
-  color:#cccccc;
+  color: #cccccc;
   font-size: 18px;
 }
 ::placeholder {
-  color:#cccccc;
+  color: #cccccc;
 }
 
 .contact .column .info li {
