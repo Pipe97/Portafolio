@@ -129,6 +129,37 @@ footer .networks a:hover {
   background-color: #eecc0ee3;
   box-shadow: 0 0 10px rgb(255, 255, 255);
 }
+.launch button {
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #cccccc;
+  width: fit-content;
+
+  padding: 10px 22px;
+  font-size: 16px;
+  color: #cccccc;
+  position: relative;
+  z-index: 10;
+}
+
+.launch button .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color:  #eecc0ec2;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+
+  z-index: -1;
+  transition: 1s;
+}
+
+.launch button:hover .overlay,
+.contact button:hover .overlay {
+  width: 100%;
+}
+
 /* SOBRE MI */
 .aboutMe {
   background-color: #000f16;
@@ -165,35 +196,6 @@ footer .networks a:hover {
   color: #eecc0e;
 }
 
-.launch button {
-  cursor: pointer;
-  background: transparent;
-  border: 2px solid #cccccc;
-  width: fit-content;
-
-  padding: 10px 22px;
-  font-size: 16px;
-  color: rgb(22, 120, 153);
-  position: relative;
-  z-index: 10;
-}
-
-.launch button .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #eecc0e;
-
-  z-index: -1;
-  transition: 1s;
-}
-
-.launch button:hover .overlay,
-.contact button:hover .overlay {
-  width: 100%;
-}
 /* Habilidades */
 .skills {
   background-color: #000f16fc;
@@ -443,12 +445,12 @@ footer .networks a:hover {
 
   padding: 10px 22px;
   font-size: 16px;
-  color: rgb(22, 120, 153);
+  color:#cccccc;
   position: relative;
   z-index: 10;
-  transition: .5s ;
+  transition: 0.5s;
 }
-.contact button:hover{
+.contact button:hover {
   transform: scale(1.05);
 }
 
