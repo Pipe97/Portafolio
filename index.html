@@ -9,7 +9,11 @@
     ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Felipe Alarcón Granada</title>
-    <link rel="icon" href="/public/iconSuitcase.png" />
+    <link rel="icon" href="/public/bx-briefcase.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css"
+    />
   </head>
   <body>
     <!-- Header -->
@@ -48,6 +52,14 @@
       <div class="banner-content">
         <h1>Felipe Alarcón Granada</h1>
         <h2>Desarrollador Web Full Stack</h2>
+        <a
+          href="https://drive.google.com/file/d/1O8bXtevD-evNrcY92LFT_JpW5PJyN3kW/view?usp=sharing"
+          rel="noopener noreferrer"
+          target="_blank"
+          ><button>
+            <b>Descargar CV</b> <i class="fa-solid fa-download"></i
+            ><span class="overlay"></span></button
+        ></a>
         <div class="networks">
           <a
             href="https://www.linkedin.com/in/felipealarcongranada/"
@@ -58,14 +70,6 @@
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
-        <a
-          href="https://drive.google.com/file/d/1O8bXtevD-evNrcY92LFT_JpW5PJyN3kW/view?usp=sharing"
-          rel="noopener noreferrer"
-          target="_blank"
-          ><button>
-            <b>Descargar CV</b> <i class="fa-solid fa-download"></i
-            ><span class="overlay"></span></button
-        ></a>
       </div>
     </section>
     <!-- SOBRE MI -->
@@ -165,7 +169,7 @@
       <div class="content-section">
         <h2>PROYECTOS</h2>
         <div class="galery">
-          <div class="proyect">
+          <!-- <div class="proyect">
             <img src="/public/PokedexImagePortfolio.png" alt="pokedex" />
             <div class="overlay">
               <a
@@ -219,6 +223,133 @@
                 <p>React</p>
               </a>
             </div>
+          </div> -->
+
+          <div class="carousel">
+            <div class="carousel-container">
+              <button aria-label="before" class="carousel__before">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+
+              <div class="carousel__list">
+                <div class="carousel__element">
+                  <img src="/public/PokedexImagePortfolio.png" alt="pokedex" />
+                  <div class="overlay">
+                    <a
+                      href="https://react-entregable-cinco.netlify.app/"
+                      target="_blank"
+                      ><h3>Pokedex</h3>
+                      <p>React</p>
+                    </a>
+                    <br />
+                    <div class="github-container">
+                      <a
+                        href="https://github.com/Pipe97/React_Entregable_5"
+                        target="_blank"
+                        class="over"
+                        ><i class="fa-brands fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel__element">
+                  <img
+                    src="/public/RickAndMortyImage.png"
+                    alt="rick-and-morty"
+                  />
+                  <div class="overlay-2">
+                    <a
+                      href="https://react-entregable-tres.netlify.app/"
+                      target="_blank"
+                      ><h3>Rick y Morty</h3>
+                      <p>React</p>
+                    </a>
+                    <br />
+                    <div class="github-container">
+                      <a
+                        href="https://github.com/Pipe97/React_Entregable_3"
+                        target="_blank"
+                        class="over"
+                        ><i class="fa-brands fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel__element">
+                  <img src="/public/UserCrudImage.png" alt="userCrud" />
+                  <div class="overlay-3">
+                    <a
+                      href="https://react-entregable-cuatro.netlify.app/"
+                      target="_blank"
+                      ><h3>CRUD de Usuarios</h3>
+                      <p>React</p>
+                    </a>
+                    <br />
+                    <div class="github-container">
+                      <a
+                        href="https://github.com/Pipe97/React_Entregable_4"
+                        target="_blank"
+                        class="over"
+                        ><i class="fa-brands fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel__element">
+                  <img src="/public/weatherAppImage.png" alt="weather-app" />
+                  <div class="overlay-4">
+                    <a
+                      href="https://react-entregable-dos.netlify.app/"
+                      target="_blank"
+                      ><h3>Aplicación del tiempo</h3>
+                      <p>React</p>
+                    </a>
+                    <br />
+                    <div class="github-container">
+                      <a
+                        href="https://github.com/Pipe97/React_Entregable_2"
+                        target="_blank"
+                        class="over"
+                        ><i class="fa-brands fa-github"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel__element">
+                  <img
+                    src="/public/fortuneCookieImage.png"
+                    alt="fortune-cookie"
+                  />
+                  <div class="overlay-5">
+                    <a
+                      href="https://react-entregable-uno.netlify.app/"
+                      target="_blank"
+                      ><h3>Galleta de la fortuna</h3>
+                      <p>React</p>
+                      <br />
+                      <div class="github-container">
+                        <a
+                          href="https://github.com/Pipe97/React_Entregrable_1"
+                          target="_blank"
+                          class="over"
+                          ><i class="fa-brands fa-github"></i
+                        ></a>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <button aria-label="before" class="carousel__next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+
+            <div role="tablist" class="carousel__indicators"></div>
           </div>
         </div>
       </div>
@@ -327,7 +458,7 @@
         ></a>
       </div>
     </footer>
-
     <script type="module" src="/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
   </body>
 </html>
