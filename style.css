@@ -274,11 +274,12 @@ footer .networks a:hover {
   color: #e6e6e6;
 }
 /* !CAROUSEL */
+
 .portfolio .galery .carousel .carousel__element img {
   width: 400px;
   height: 290px;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  justify-content: center;
   border-radius: 15px;
   box-shadow: 4px 4px 10px -10px #000f16fc;
   margin: 0 auto;
@@ -858,5 +859,16 @@ footer .networks a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .skills .row .column .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0;
   }
 }
