@@ -10,6 +10,7 @@
   font-family: "Playfair Display", serif;
   margin: 0;
   padding: 0;
+  /* overflow: hidden; */
 }
 html {
   scroll-behavior: smooth;
@@ -59,6 +60,7 @@ html {
   cursor: pointer;
   display: none;
 }
+/* INICIO */
 .launch {
   background: linear-gradient(
       to top,
@@ -158,6 +160,7 @@ footer .networks a:hover {
 
 /* SOBRE MI */
 .aboutMe {
+  height: 100vh;
   background-color: #000f16;
   color: #cccccc;
   padding: 50px 20px;
@@ -254,15 +257,15 @@ footer .networks a:hover {
 /* PORTAFOLIO */
 
 .portfolio {
-  /* border: 1px solid; */
+  height: 100vh;
+
   padding: 50px 20px;
   background-color: #000f16;
   color: #cccccc;
 }
 .portfolio .content-section {
-  /* border: 1px solid; */
   max-width: 1100px;
-  margin: auto;
+  margin: 20vh auto;
 }
 .portfolio h2 {
   font-size: 48px;
@@ -275,6 +278,10 @@ footer .networks a:hover {
 }
 /* !CAROUSEL */
 
+.portfolio .galery .carousel .carousel-container  {
+  position: relative; 
+}
+
 .portfolio .galery .carousel .carousel__element img {
   width: 400px;
   height: 290px;
@@ -284,9 +291,7 @@ footer .networks a:hover {
   box-shadow: 4px 4px 10px -10px #000f16fc;
   margin: 0 auto;
 }
-.carousel .carousel-container {
-  position: relative;
-}
+
 
 .carousel .carousel-container .carousel__before,
 .carousel__next {
