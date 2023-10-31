@@ -278,8 +278,8 @@ footer .networks a:hover {
 }
 /* !CAROUSEL */
 
-.portfolio .galery .carousel .carousel-container  {
-  position: relative; 
+.portfolio .galery .carousel .carousel-container {
+  position: relative;
 }
 
 .portfolio .galery .carousel .carousel__element img {
@@ -292,7 +292,6 @@ footer .networks a:hover {
   margin: 0 auto;
 }
 
-
 .carousel .carousel-container .carousel__before,
 .carousel__next {
   position: absolute;
@@ -300,7 +299,7 @@ footer .networks a:hover {
   width: 30px;
   height: 30px;
   border: none;
-  top: calc(50% - 35px);
+  top: calc(50% - 40px);
   cursor: pointer;
   line-height: 30px;
   text-align: center;
@@ -724,7 +723,7 @@ footer .networks a:hover {
   font-size: 35px;
 }
 
-/* Contacto */
+/*! Contacto */
 .contact {
   background-color: #000f16;
   color: #cccccc;
@@ -791,7 +790,7 @@ footer .networks a:hover {
 .contact button:hover {
   transform: scale(1.05);
 }
-/* Pie de página */
+/* !Pie de página */
 footer {
   background-color: #000f16fc;
   color: #cccccc;
@@ -830,7 +829,8 @@ footer .networks a {
   line-height: 40px;
   margin: 10px 5px;
 }
-/* RESPONSIVE */
+/*! RESPONSIVE */
+
 @media screen and (max-width: 980px) {
   nav {
     display: none;
@@ -854,9 +854,13 @@ footer .networks a {
     padding: 10px 0;
   }
 }
+
 @media screen and (max-width: 500px) {
   .launch .banner-content {
     max-width: 300px;
+  }
+  .launch .banner-content .networks a{
+    margin-top: 90px;
   }
 
   .contact .column .info ul {
@@ -875,5 +879,44 @@ footer .networks a {
     align-items: center;
     gap: 10px;
     margin-left: 0;
+  }
+}
+@media screen and (max-width: 1139px) {
+  .portfolio
+    .galery
+    .carousel
+    .carousel-container
+    .carousel__list
+    .carousel__element
+    .overlay,
+  .portfolio
+    .galery
+    .carousel
+    .carousel-container
+    .carousel__list
+    .carousel__element
+    .overlay-2,
+  .portfolio
+    .galery
+    .carousel
+    .carousel-container
+    .carousel__list
+    .carousel__element
+    .overlay-3,
+  .portfolio
+    .galery
+    .carousel
+    .carousel-container
+    .carousel__list
+    .carousel__element
+    .overlay-4,
+  .portfolio
+    .galery
+    .carousel
+    .carousel-container
+    .carousel__list
+    .carousel__element
+    .overlay-5 {
+    display: none;
   }
 }
