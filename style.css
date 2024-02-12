@@ -80,7 +80,7 @@ html {
   width: 350px;
   height: 500px;
   margin: auto;
-  margin-top: 8rem;
+  margin-top: 4.8rem;
   text-align: center;
   border-radius: 40px;
   display: flex;
@@ -160,6 +160,7 @@ footer .networks a:hover {
 
 /* SOBRE MI */
 .aboutMe {
+  
   height: 100vh;
   background-color: #000f16;
   color: #cccccc;
@@ -853,6 +854,8 @@ footer .networks a {
     border-bottom: 1px solid white;
     padding: 10px 0;
   }
+  
+  
 }
 
 @media screen and (max-width: 500px) {
